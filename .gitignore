@@ -1,0 +1,9 @@
+# ignore compiled or generated files
+*.o
+*.so
+*.pyc
+__pycache__/
+
+# ignore secrets / tokens if any end up in configs
+*.env
+secrets/
