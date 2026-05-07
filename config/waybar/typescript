@@ -1,57 +1,0 @@
-Script started on 2026-01-04 20:25:39+07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="126" LINES="10"]
-[1m[36m                  -`
-                 .o+`
-                `ooo/
-               `+oooo:
-              `+oooooo:
-              -+oooooo+:
-            `/:-:++oooo+:
-           `/++++/+++++++:
-          `/++++++++++++++:
-         `/+++o[36moooooooo[36moooo/`
-        ./[36mooosssso++osssssso[36m+`
-[36m       .oossssso-````/ossssss+`
-      -osssssso.      :ssssssso.
-     :osssssss/        osssso+++.
-    /ossssssss/        +ssssooo/-
-  `/ossssso+/:-        -:/+osssso+-
- `+sso+:-`                 `.-/+oso:
-`++:.                           `-/+/
-.`                                 `/[m[1G[18A[m[?7l[41C[m[1m[34m  [m[m : [mStayin' alive, stayin' alive
-[41C[m┌──────────────────────────────────────────┐[m
-[41C[m[1m[36m  󰇺 Chassis[m[m : [mDesktop  [m
-[41C[m[1m[31m  󰣇 OS[m[m : [mArch Linux[m
-[41C[m[1m[31m   Kernel[m[m : [m6.18.3-arch1-1[m
-[41C[m[1m[32m  󰏗 Packages[m[m : [m647 (pacman), 23 (flatpak)
-[41C[m[1m[32m  󰍹 Display[m[m : [m2560x1440 @ 144Hz [External][m
-[41C[m[1m[33m   Terminal[m[m : [melectron
-[41C[m[1m[33m  󱗃 WM[m[m : [mHyprland[m
-[41C[m└──────────────────────────────────────────┘[m
-[41C
-[41C[m[1m[36m  [m[m : [m[1m[36mmrsypz[m @ [1m[36marchai[m[m
-[41C[m┌──────────────────────────────────────────┐[m
-[41C[m[1m[34m   CPU[m[m : [m12th Gen Intel(R) Core(TM) i9-12900K @ 5.20 GHz[m
-[41C[m[1m[34m  󰊴 GPU[m[m : [mNVIDIA GeForce RTX 3080 12GB[m
-[41C[m[1m[34m  󰊴 GPU[m[m : [mIntel UHD Graphics 770[m
-[41C[m[1m[35m   GPU Driver[m[m : [mnvidia (open source) 590.48.01[m
-[41C[m[1m[35m   GPU Driver[m[m : [mi915[m
-[41C[m[1m[35m   Memory [m[m : [m7.99 GiB / 31.08 GiB ([32m26%[m)
-[41C[m[1m[31m  󱦟 OS Age [m[m : [m22 days[m
-[41C[m[1m[31m  󱫐 Uptime [m[m : [m1 hour, 22 mins
-[41C[m└──────────────────────────────────────────┘[m
-[41C[m  [38m● [37m● [36m● [35m● [34m● [33m● [32m● [31m●[m
-[41C
-[?7h]0;mrsypz@archai:~/.config/waybar[?2004h[36mmrsypz@archai [33m~/.config/waybar [32m$ [0mcd scripts/systemupdate.sh [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscripts/
-[?2004l]0;mrsypz@archai:~/.config/waybar/scripts[?2004h[36mmrsypz@archai [33m~/.config/waybar/scripts [32m$ [0m./sys[K[K[K[Ksys[K[K[K[Ks
-Display all 221 possibilities? (y or n)
-[36mmrsypz@archai [33m~/.config/waybar/scripts [32m$ [0ms[Ksystemupdates[K.sh[1@.
-[?2004lbash: .systemupdate.sh: command not found
-]0;mrsypz@archai:~/.config/waybar/scripts[?2004h[36mmrsypz@archai [33m~/.config/waybar/scripts [32m$ [0mls
-[?2004lsystemupdate.sh
-]0;mrsypz@archai:~/.config/waybar/scripts[?2004h[36mmrsypz@archai [33m~/.config/waybar/scripts [32m$ [0msystemup[K[K[K[K[K[K[K[K.systemupdate.sh
-[?2004lbash: .systemupdate.sh: command not found
-]0;mrsypz@archai:~/.config/waybar/scripts[?2004h[36mmrsypz@archai [33m~/.config/waybar/scripts [32m$ [0m./[1P/[Ks[Kchmod -x systemupdate.sh 
-[?2004l]0;mrsypz@archai:~/.config/waybar/scripts[?2004h[36mmrsypz@archai [33m~/.config/waybar/scripts [32m$ [0mls
-[?2004lsystemupdate.sh
-]0;mrsypz@archai:~/.config/waybar/scripts[?2004h[36mmrsypz@archai [33m~/.config/waybar/scripts [32m$ [0m.sh[Ky^C[?2004l[?2004h[?2004l
-]0;mrsypz@archai:~/.config/waybar/scripts[?2004h[36mmrsypz@archai [33m~/.config/waybar/scripts [32m$ [0m.^[[200~glo
