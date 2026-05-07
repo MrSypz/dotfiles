@@ -7,6 +7,57 @@ This repository is a standalone extraction of only the NVIDIA install and Hyprla
 - `install-nvidia.sh` — installs NVIDIA packages and applies required Arch + Wayland patches
 - `nvidia.conf` — Hyprland NVIDIA environment variables
 - `README.md` — usage and assumptions
+```
+bin/                  — custom scripts (~/.bin)
+config/
+  hypr/               — Hyprland, hyprlock, hypridle
+  waybar/             — bar config + scripts
+  swaync/             — notification center
+  rofi/               — launcher
+  Thunar/             — file manager custom actions & keybinds
+```
+
+## Backup (before reinstall)
+
+```bash
+cd ~/dotfiles
+./backup.sh
+git add -A
+git commit -m "backup: pre-reinstall snapshot"
+git push
+```
+
+## Fresh install
+
+### 1. Base Arch install
+
+Boot the Arch ISO, partition, format, mount, then:
+
+```bash
+pacstrap /mnt base base-devel linux linux-firmware linux-headers grub efibootmgr networkmanager git
+genfstab -U /mnt >> /mnt/etc/fstab
+arch-chroot /mnt
+# set locale, hostname, root password, create user, enable NetworkManager, install grub
+exit
+reboot
+```
+
+### 2. Clone and run install.sh
+
+```bash
+# Log in as your user (not root)
+git clone https://github.com/MrSypz/dotfiles.git ~/dotfiles
+cd ~/dotfiles
+bash install.sh
+```
+
+The script will:
+- Install `paru` (AUR helper)
+- Install Hyprland, Waybar, Rofi, SwayNC, Thunar + dependencies
+- Install NVIDIA drivers and configure DRM modesetting for Wayland
+- Restore all configs
+- Configure Papirus-Dark icon theme so Thunar shows icons correctly
+- Add `~/bin` to your PATH
 
 ## Usage
 
