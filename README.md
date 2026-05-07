@@ -43,7 +43,7 @@ reboot
 
 ```bash
 # Log in as your user (not root)
-git clone https://github.com/<your-username>/dotfiles.git ~/dotfiles
+git clone https://github.com/MrSypz/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 bash install.sh
 ```
