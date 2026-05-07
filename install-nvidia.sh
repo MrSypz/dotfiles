@@ -15,10 +15,7 @@ require_file() {
 
 append_grub_param_if_missing() {
   local param="$1"
-  local escaped
-  escaped=$(printf '%s' "$param" | sed 's/[.[\\*^$()+?{}|]/\\&/g')
-
-  if grep -Eq "GRUB_CMDLINE_LINUX_DEFAULT=\"[^\"]*(^| )${escaped}($| )[^\"]*\"" "$GRUB_CFG"; then
+  if grep -Fq "$param" "$GRUB_CFG"; then
     log "GRUB already contains: $param"
   else
     log "Adding GRUB parameter: $param"
